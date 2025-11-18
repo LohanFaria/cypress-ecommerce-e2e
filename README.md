@@ -1,7 +1,6 @@
-🧪 **Projeto de Automação de Testes E2E — E-commerce Demo**
+🧪 **Automação de Testes End-to-End com Cypress — E-commerce (Magento Demo Store)**
 
-Tecnologias: Cypress · Node.js · JavaScript · Git · VS Code
-Foco: Automação de testes de fluxo de compra em e-commerce (Magento Demo Store)
+Este repositório apresenta uma suíte de testes automatizados desenvolvida com Cypress, cobrindo o fluxo de compra de um e-commerce baseado na Magento Demo Store. Os testes foram estruturados para validar cenários críticos do negócio, como adição e remoção de itens no carrinho, checkout completo e finalização de pedidos.
 
 🎯 **Objetivo do Projeto**
 
