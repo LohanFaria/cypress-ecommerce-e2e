@@ -23,7 +23,7 @@ Linguagem	JavaScript
 Gerenciamento de Dependências	Node.js + npm
 Controle de Versão	Git e GitHub
 Ambiente de Teste	Magento Demo Store
-Editor	Visual Studio Code
+Visual Studio Code
 
 🧩 **Estrutura de Testes**
 O projeto está organizado da seguinte forma:
@@ -32,9 +32,7 @@ O projeto está organizado da seguinte forma:
  ┣ 📂 e2e
  ┃ ┣ 🧪 add_to_cart.cy.js
  ┃ ┣ 🧪 remove_from_cart.cy.js
- ┃ ┣ 🧪 apply_coupon.cy.js
- ┃ ┣ 🧪 checkout.cy.js
- ┃ ┗ 🧪 place_order.cy.js
+ ┃ ┗🧪 checkout.cy.js
  ┣ 📂 fixtures
  ┣ 📂 support
  ┗ 📜 cypress.config.js
@@ -48,6 +46,6 @@ Estruturação de README e documentação técnica
 Mentalidade de QA: planejamento, execução e análise de resultados
 
 💬 **Contato**
-📧 lohanfariaqa@gmail.com
-🔗 LinkedIn
-🐙 GitHub
+📧 lohanfaria@gmail.com
+🔗 www.linkedin.com/in/lohan-faria
+🐙 https://github.com/LohanFaria
