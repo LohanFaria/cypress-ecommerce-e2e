@@ -1,3 +1,7 @@
+![Cypress](https://img.shields.io/badge/tests-Cypress%20E2E-04C38E)
+![Node](https://img.shields.io/badge/node-18.x-339933)
+![CI](https://github.com/LohanFaria/cypress-ecommerce-e2e/actions/workflows/ci.yml/badge.svg)
+
 🧪 **Automação de Testes End-to-End com Cypress — E-commerce (Magento Demo Store)**
 
 Este repositório apresenta uma suíte de testes automatizados desenvolvida com Cypress, cobrindo o fluxo de compra de um e-commerce baseado na Magento Demo Store. Os testes foram estruturados para validar cenários críticos do negócio, como adição e remoção de itens no carrinho, checkout completo e finalização de pedidos.
