@@ -62,7 +62,6 @@ describe('Checkout - Preenchimento do formulário', () => {
 
     cy.get('#hyva-checkout-container > div > div.area-right.checkout-summary.space-y-6 > nav > div > button').click();
 
-    // Não finalizamos o pedido aqui — isso fica para o teste de "place order"
-    // Aqui a garantia é que todos os blocos de checkout foram preenchidos/selecionados com sucesso.
+    
   });
 });

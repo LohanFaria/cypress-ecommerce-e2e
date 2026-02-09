@@ -2,53 +2,65 @@
 ![Node](https://img.shields.io/badge/node-18.x-339933)
 ![CI](https://github.com/LohanFaria/cypress-ecommerce-e2e/actions/workflows/ci.yml/badge.svg)
 
-🧪 **Automação de Testes End-to-End com Cypress — E-commerce (Magento Demo Store)**
+# Cypress E2E — E-commerce (Magento Demo Store)
 
-Este repositório apresenta uma suíte de testes automatizados desenvolvida com Cypress, cobrindo o fluxo de compra de um e-commerce baseado na Magento Demo Store. Os testes foram estruturados para validar cenários críticos do negócio, como adição e remoção de itens no carrinho, checkout completo e finalização de pedidos.
+Breve descrição
+---------------
+Suíte de testes End-to-End escrita em JavaScript usando Cypress. Os testes simulam o fluxo de compra em uma loja demo (Magento), validando funcionalidades críticas como adicionar ao carrinho, remover itens e finalizar o checkout.
 
-🎯 **Objetivo do Projeto**
+Principais cenários
+-------------------
+- Adicionar produto ao carrinho
+- Remover produto do carrinho
+- Preenchimento do formulário de checkout
+- Finalização de pedido
 
-Este projeto tem como objetivo automatizar o fluxo de compra completo de um e-commerce web, validando o comportamento de funcionalidades essenciais como adicionar produtos ao carrinho, aplicar cupons de desconto e finalizar pedidos.
+Começando
+---------
+Requisitos:
+- Node.js 18+ (ou 20+)
+- npm
 
-A automação foi desenvolvida com Cypress, com foco em práticas de QA modernas e em testes end-to-end (E2E), garantindo a qualidade e a confiabilidade dos principais fluxos do sistema.
+Instalação de dependências:
 
-🧱 **Escopo do Projeto**
-Adicionar produtos ao carrinho
-Remover produtos do carrinho
-Aplicar cupom de desconto
-Preencher formulário de checkout
-Finalizar pedido (confirmação de compra)
+```bash
+npm install
+```
 
-⚙️ **Tecnologias e Ferramentas**
-Categoria	Ferramenta
-Automação de Testes	Cypress
-Linguagem	JavaScript
-Gerenciamento de Dependências	Node.js + npm
-Controle de Versão	Git e GitHub
-Ambiente de Teste	Magento Demo Store
-Visual Studio Code
+Executar testes (headless):
 
-🧩 **Estrutura de Testes**
-O projeto está organizado da seguinte forma:
+```bash
+npm run test
+```
 
-📁 cypress
- ┣ 📂 e2e
- ┃ ┣ 🧪 add_to_cart.cy.js
- ┃ ┣ 🧪 remove_from_cart.cy.js
- ┃ ┗🧪 checkout.cy.js
- ┣ 📂 fixtures
- ┣ 📂 support
- ┗ 📜 cypress.config.js
+Abrir Cypress (modo interativo):
 
-🧠 **Conhecimentos Aplicados**
-Automação de testes E2E com Cypress
-Criação de seletores dinâmicos e assertivas
-Organização de testes por cenários funcionais
-Uso de boas práticas de versionamento Git
-Estruturação de README e documentação técnica
-Mentalidade de QA: planejamento, execução e análise de resultados
+```bash
+npm run cypressopen
+```
 
-💬 **Contato**
-📧 lohanfaria@gmail.com
-🔗 www.linkedin.com/in/lohan-faria
-🐙 https://github.com/LohanFaria
+Estrutura do projeto
+--------------------
+- `cypress/e2e` — testes (ex.: `add_to_cart.cy.js`, `remove_from_cart.cy.js`, `checkout.cy.js`)
+- `cypress/support` — comandos e configurações compartilhadas
+- `cypress.config.js` — configuração do Cypress
+
+Integração Contínua
+-------------------
+O workflow está em `.github/workflows/ci.yml`. Ele instala dependências e executa os testes em múltiplas versões do Node; vídeos e screenshots são enviados como artifacts.
+
+Boas práticas
+------------
+- Use seletores `data-*` para maior robustez
+- Centralize comandos reutilizáveis em `cypress/support/commands.js`
+- Mantenha testes isolados e independentes
+
+Contato
+-------
+- Email: lohanfaria@gmail.com
+- LinkedIn: https://www.linkedin.com/in/lohan-faria
+- GitHub: https://github.com/LohanFaria
+
+Contribuições
+-------------
+Feedback e PRs são bem-vindos — abra uma issue ou pull request.
